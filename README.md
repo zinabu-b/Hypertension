@@ -2,16 +2,16 @@
 
 # <span style="color:#f57c00; font-size:32px"><b>🩺 Hypertension Risk Prediction App</b></span>
 
-#### <span style="color:#388e3c"><i>Prepared by: Zinabu Bekele</i>  
-<i>Website: https://zinabu.netlify.app</i>  
-<i>Nebiyu</i>  
-<i>Fentahun</i>  
-<i>Dagim</i></span>
+#### <span style="color:#388e3c"><i>Prepared by:</i> 
+#### <i> Zinabu Bekele https://zinabu.netlify.app </i>  
+#### <i>Nebiyu</i>  
+#### <i>Fentahun</i>  
+#### <i>Dagim</i></span>
 
 ---
 
 ## 📌 Overview  
-A machine learning system that predicts patient hypertension risk (High/Low) using XGBoost, explains predictions via SHAP values, and provides treatment recommendations through a Streamlit interface. Designed to support early intervention in primary care settings, this app empowers clinicians with actionable insights using real-world patient data.
+A machine learning system that predicts patient hypertension risk (High/Low) using XGBoost, explains predictions via SHAP values, and provides treatment recommendations through a Streamlit interface. By leveraging readily available patient data such as age, blood pressure, BMI, glucose, cholesterol, lifestyle habits, and medication adherence, our model identifies high-risk individuals before clinical diagnosis, enabling timely preventive interventions.
 
 ---
 
@@ -32,20 +32,6 @@ A machine learning system that predicts patient hypertension risk (High/Low) usi
 | `app.py` | Streamlit application for live predictions. |
 | `model.pkl` | Pretrained XGBoost model. |
 | `label_encoders.pkl` | Encoders for categorical variables (gender, smoker, alcohol use, etc.). |
-
----
-
-> <span style="color:#f57c00; font-weight:bold"> Developed for Orbit Health Innovation Hub AI in Healthcare Hackathon</span>
-
----
-
-## 📝 Introduction
-
-Hypertension is a leading modifiable risk factor for cardiovascular disease, stroke, and kidney failure—conditions responsible for millions of deaths annually. Early detection and proactive management are critical to reducing long-term complications. However, many patients remain undiagnosed due to asymptomatic presentation and limited access to regular screening.
-
-This project addresses this gap by developing a lightweight, explainable, and deployable **hypertension risk prediction system** tailored for integration into primary healthcare workflows. By leveraging readily available patient data such as age, blood pressure, BMI, glucose, cholesterol, lifestyle habits, and medication adherence, our model identifies high-risk individuals before clinical diagnosis, enabling timely preventive interventions.
-
-The solution is not only accurate but also transparent—using SHAP (SHapley Additive exPlanations) to demystify how each input contributes to the final decision. This transparency builds clinician trust and supports shared decision-making with patients.
 
 ---
 
@@ -105,47 +91,7 @@ The solution is not only accurate but also transparent—using SHAP (SHapley Add
 ## 💡 Feature Innovations & Integration Potential with Local EHR Systems
 
 This app is designed with **real-world clinical integration** in mind. Below are innovative features that can be directly embedded into **local Electronic Health Record (EHR) systems**:
-
-### ✅ 1. **Automated Risk Scoring at Point-of-Care**
-- Integrate the model as a **real-time risk score calculator** within EHR dashboards.
-- When a new patient visit is recorded, the system automatically computes hypertension risk using existing vital signs and demographics.
-- Example: After entering BP, age, and BMI, the EHR displays “High Risk” with color coding and alerts.
-
-### ✅ 2. **Smart Clinical Decision Support (CDS) Engine**
-- Embed the model into EHR’s CDS engine to trigger **automated suggestions**:
-  - “Patient aged 65 with SBP=150 — consider initiating antihypertensive therapy.”
-  - “BMI 32 — refer to nutritionist.”
-
-### ✅ 3. **Dynamic Risk Dashboard for Clinicians**
-- Create a **risk stratification dashboard** showing:
-  - Patients at high risk (flagged by model).
-  - Trending risk scores over time.
-  - Visual summary of contributing factors (via SHAP-style bar charts).
-
-### ✅ 4. **Seamless Data Flow from EHR to Model**
-- Use standardized EHR APIs (e.g., FHIR) to pull data:
-  - Vital signs (BP, BMI)
-  - Lab results (glucose, cholesterol)
-  - Medication history (adherence tracking)
-  - Lifestyle flags (smoking, alcohol, physical activity)
-
-> 🔗 *Future enhancement*: Connect to EHR via HL7/FHIR to enable **continuous risk monitoring**.
-
-### ✅ 5. **Patient Self-Reporting Module**
-- Allow patients to self-report lifestyle behaviors (physical activity, smoking, diet) via secure portals.
-- Feed this data into the model to generate personalized risk updates without requiring clinic visits.
-
-### ✅ 6. **Audit Trail & Compliance Logging**
-- Log every prediction and recommendation in the EHR for:
-  - Quality assurance
-  - Regulatory compliance
-  - Research and analytics
-
-### ✅ 7. **Multi-Language & Offline Support (for Rural Clinics)**
-- Adapt the app for low-bandwidth environments:
-  - Lightweight version with offline model inference.
-  - Support for Amharic, Oromo, and other local languages.
-
+ 
 ---
 
 ## 📈 Conclusion
@@ -161,6 +107,10 @@ By embedding this tool into **local EHR platforms**, we empower primary care pro
 - Expand to predict other conditions (e.g., diabetes, heart failure).
 - Incorporate longitudinal data for dynamic risk modeling.
 - Validate in real clinics via pilot studies.
+
+---
+
+### > <span style="color:#f57c00; font-weight:bold"> Developed for Orbit Health Innovation Hub AI in Healthcare Hackathon</span>
 
 ---
 
