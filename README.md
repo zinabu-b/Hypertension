@@ -1,6 +1,5 @@
 # Hypertension Risk Prediction System  
-
-![Project Banner](https://via.placeholder.com/800x400?text=Hypertension+Risk+Prediction+System)  
+  
 <img width="1024" height="432" alt="OIH_Logo-1024x432" src="https://github.com/user-attachments/assets/b0d7b50a-916a-4774-895b-177cdaf2392c" />
 
 
