@@ -38,8 +38,8 @@ A machine learning system that predicts patient hypertension risk (High/Low) usi
 ## 🔬 Methods Used
 
 ### 1. **Data Preprocessing**
-- **Feature Engineering**: Derived BMI from height/weight (if available); normalized continuous variables.
-- **Categorical Encoding**: Applied label encoding for binary features (`smoker`, `alcohol_use`, `physical_activity`, `med_adherence`) and gender.
+- **Feature Engineering**: Derived BMI from height/weight; normalized continuous variables.
+- **Categorical Encoding**: Applied label encoding for binary features 
 - **Target Variable**: Created a binary `hypertension` label based on clinical thresholds:
   - Systolic BP ≥ 140 mmHg or Diastolic BP ≥ 90 mmHg → High Risk (1)
   - Otherwise → Low Risk (0)
@@ -65,11 +65,6 @@ A machine learning system that predicts patient hypertension risk (High/Low) usi
 
 ### 4. **Rule-Based Treatment Recommendations**
 - Integrated domain knowledge into post-prediction logic:
-  - If systolic BP > 140 → suggest antihypertensive review.
-  - If BMI > 30 → recommend weight loss program.
-  - If glucose > 126 → screen for diabetes.
-  - If cholesterol > 200 → consider statin therapy.
-
 ---
 
 ## ⚙️ Tools & Technologies Used
@@ -90,7 +85,7 @@ A machine learning system that predicts patient hypertension risk (High/Low) usi
 
 ## 💡 Feature Innovations & Integration Potential with Local EHR Systems
 
-This app is designed with **real-world clinical integration** in mind. Below are innovative features that can be directly embedded into **local Electronic Health Record (EHR) systems**:
+This app is designed with **real-world clinical integration** in mind and can be directly embedded into **local Electronic Health Record (EHR) systems**:
  
 ---
 
@@ -100,13 +95,6 @@ The **Hypertension Risk Prediction App** demonstrates how **machine learning, ex
 
 By embedding this tool into **local EHR platforms**, we empower primary care providers to move from reactive to **predictive and preventive care**, ultimately reducing the burden of cardiovascular disease in underserved populations.
 
----
-
-## 🛠️ Future Work
-- Deploy the model as a cloud-hosted API for EHR integration.
-- Expand to predict other conditions (e.g., diabetes, heart failure).
-- Incorporate longitudinal data for dynamic risk modeling.
-- Validate in real clinics via pilot studies.
 
 ---
 
