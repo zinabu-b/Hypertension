@@ -1,8 +1,11 @@
-# Hypertension Risk Prediction System  
-  
-<img width="1024" height="432" alt="OIH_Logo-1024x432" src="https://github.com/user-attachments/assets/b0d7b50a-916a-4774-895b-177cdaf2392c" />
+  <img width="1024" height="432" alt="OIH_Logo-1024x432" src="https://github.com/user-attachments/assets/b0d7b50a-916a-4774-895b-177cdaf2392c" />
 
+# <span style="color:#f57c00; font-size:32px"><b>🩺 Hypertension Risk Prediction app </b></span>
 
+#### <span style="color:#388e3c"><i>Prepared by: Zinabu Bekele website: https://zinabu.netlify.app</i>
+<i>Nebiyu</i>
+<i>fentahun</i>
+<i> dagim</i></span>
 ---
 
 ## 📌 Overview  
@@ -29,3 +32,7 @@ A machine learning system that predicts patient hypertension risk (High/Low) usi
 
 ---
 
+> <span style="color:#f57c00; font-weight:bold"> Developed for Orbit Health Innovation Hub AI in Healthcare Hackathon</span>  
+
+
+---
