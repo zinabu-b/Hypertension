@@ -4,9 +4,9 @@
 
 #### <span style="color:#388e3c"><i>Prepared by:</i> 
 #### <i> Zinabu Bekele https://zinabu.netlify.app </i>  
-#### <i>Nebiyu</i>  
-#### <i>Fentahun</i>  
-#### <i>Dagim</i></span>
+#### <i>Nebiyu Girma</i>  
+#### <i>Fentahun Bikale</i>  
+#### <i>Dagim Hailegebriel</i></span>
 
 ---
 
