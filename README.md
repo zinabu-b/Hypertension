@@ -3,10 +3,7 @@
 # <span style="color:#f57c00; font-size:32px"><b>🩺 Hypertension Risk Prediction App</b></span>
 
 #### <span style="color:#388e3c"><i>Prepared by:</i> 
-#### <i> Zinabu Bekele https://zinabu.netlify.app </i>  
-#### <i>Nebiyu Girma</i>  
-#### <i>Fentahun Bikale</i>  
-#### <i>Dagim Hailegebriel</i></span>
+#### <i> Zinabu Bekele https://zinabu.netlify.app </i> 
 
 ---
 
