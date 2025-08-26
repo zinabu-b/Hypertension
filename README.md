@@ -1,5 +1,8 @@
 <img width="1024" height="432" alt="OIH_Logo-1024x432" src="https://github.com/user-attachments/assets/b0d7b50a-916a-4774-895b-177cdaf2392c" />
 
+"<h1 style=\"color:#f57c00; font-size:32px;\">\n",
+        "    🩺 <b>AI for Healthcare Hackathon</b>\n",
+        "</h1>\n"
 # <span style="color:#f57c00; font-size:32px"><b>🩺 Hypertension Risk Prediction App</b></span>
 
 #### <span style="color:#388e3c"><i>Prepared by:</i> 
