@@ -32,6 +32,7 @@ A machine learning system that predicts patient hypertension risk (High/Low) usi
 | `app.py` | Streamlit application for live predictions. |
 | `model.pkl` | Pretrained XGBoost model. |
 | `label_encoders.pkl` | Encoders for categorical variables (gender, smoker, alcohol use, etc.). |
+| 'requirements' | Requirement to be read by streamlit setup |
 
 ---
 
