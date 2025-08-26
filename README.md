@@ -1,6 +1,6 @@
 <img width="1024" height="432" alt="OIH_Logo-1024x432" src="https://github.com/user-attachments/assets/b0d7b50a-916a-4774-895b-177cdaf2392c" />
 
-# <span style="color:#f57c00; font-size:28px"><b>🩺 AI for Healthcare Hackathon: Hypertension Risk Prediction App and personalized treatment plan </b></span>
+# <span style="color:#f57c00; font-size:28px"><b>🩺 AI for Healthcare Hackathon: Hypertension Risk Prediction and Personalized Treatment Plan App </b></span>
 
 #### <span style="color:#388e3c"><i>Prepared by:</i> 
 #### <i> Zinabu Bekele https://zinabu.netlify.app </i> 
